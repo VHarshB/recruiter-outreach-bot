@@ -1,0 +1,11 @@
+# requirements.txt
+# Install all dependencies with:
+#   pip install -r requirements.txt
+
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.1.0          # faster XML parser (used for Indeed RSS)
+jobspy==1.1.67       # scrapes Indeed + Google Jobs legally
+schedule==1.2.1      # daily scheduler
+python-dotenv==1.0.1 # loads .env file
+dnspython==2.6.1     # needed for SMTP email verification
